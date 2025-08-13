@@ -1,0 +1,20 @@
+{
+  "name": "watch-me",
+  "version": "1.0.0",
+  "description": "A youtube like application",
+  "types": "module",
+  "keywords": [
+    "Javascript",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Shivam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
