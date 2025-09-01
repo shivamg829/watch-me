@@ -1,16 +1,11 @@
 // 1.This is promise-based error handling for async functions in Express.js.
-const asyncHalder = (requestHandler) =>  {
+const asyncHanlder = (requestHandler) =>  {
     return (req, res, next) => {
         Promise.resolve(requestHandler(req, res, next))
-            .catch((error) => {
-                res.status(error.code || 500).json({
-                    success: false,
-                    message: error.message || "Internal Server Error"
-                });
-            });
+            .catch((error) => next(error));
     };
 }
-export default asyncHalder;
+export {asyncHanlder};
 // 2.This method is try-catch based error handling for async functions in Express.js.
 // const asyncHandler = (fn) => async (req, res, next) => {
 //     try{

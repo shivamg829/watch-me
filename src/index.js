@@ -4,6 +4,7 @@
 import connectToDatabase from "./db/index.js";
 import dotenv from "dotenv";
 dotenv.config({ path: "./env" });
+import app from "./app.js";
 // ---------------------------------------------------
 connectToDatabase()
 .then(()=> {
