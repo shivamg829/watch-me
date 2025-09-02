@@ -20,6 +20,7 @@ app.use(express.urlencoded({
 }));
 app.use(express.static('public')); // Serve static files from the 'public' directory
 
+// Cookie parser middleware
 app.use(cookieParser());
 
 // Routes
