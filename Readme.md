@@ -1,6 +1,6 @@
 # YouTube Clone - Backend
 
-A complete backend for a YouTube-like application built with Node.js, Express, and MongoDB using Mongoose ODM.
+A complete backend for a YouTube-like application built with Node.js, Express, Mongoose.
 
 ## Features
 
