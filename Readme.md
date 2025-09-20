@@ -6,7 +6,6 @@ A complete backend for a YouTube-like application built with Node.js, Express, a
 
 - User authentication (register/login)
 - Video upload and streaming
-- Comment functionality
 - Subscription management
 
 ## Tech Stack
